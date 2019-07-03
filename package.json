@@ -1,0 +1,58 @@
+{
+	"publisher": "evenC",
+	"name": "styleObject2CSS",
+	"displayName": "styleObject2CSS",
+	"description": "",
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#0078b2",
+		"theme": "dark"
+	},
+	"version": "1.0.2",
+	"engines": {
+		"vscode": "^1.35.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.transform"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.transform",
+				"title": "styleObject2CSS: transform"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "extension.transform",
+				"key": "ctrl+T ctrl+C",
+				"mac": "cmd+T cmd+C",
+				"when": "editorTextFocus"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"when": "editorFocus",
+					"command": "extension.transform",
+					"group": "navigation"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^3.3.1",
+		"vscode": "^1.1.28",
+		"eslint": "^5.13.0",
+		"@types/node": "^10.12.21",
+		"@types/mocha": "^2.2.42"
+	}
+}
