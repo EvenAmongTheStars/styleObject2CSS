@@ -17,10 +17,10 @@ function activate(context) {
 			return;
 		}
 		// console.log(text);
-		let r = new RegExp(/([a-z]+)([A-Z]?)([a-z]*)(: )(['|"])(.*)(['|"])(,?)/g);
-		let result = text.replace(r, (match, p1, p2, p3, p4, p5, p6, p7, p8, offset, string) => {
-			p2 = p2 ? '-' + p2.toLowerCase() : '';
-			return `${p1}${p2}${p3}${p4}${symbol}${p6}${symbol};`;
+		let r = new RegExp(/(['|"]?)([a-z]+)([A-Z]?)([a-z]*)(['|"]?)(: )(['|"])(.*)(['|"])(,?)/g);
+		let result = text.replace(r, (match, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, offset, string) => {
+			p3 = p3 ? '-' + p3.toLowerCase() : '';
+			return `${p2}${p3}${p4}${p6}${symbol}${p8}${symbol};`;
 
 		})
 		// console.log(result);
