@@ -119,5 +119,9 @@ update README.
 
 加入專案開源儲存位置
 
+### 1.0.6
+1. Fix Chinese README.
+
+修正中文說明
 
 **Enjoy!**
