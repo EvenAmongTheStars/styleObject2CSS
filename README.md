@@ -62,20 +62,6 @@ This extension contributes the following settings:
 
 `styleObject2CSS.transform`: 將選擇中的style object文字區塊轉換為CSS格式的指令.
 
-* settings
-
-* 設定
-`doubleQuotation`: Set attributes value symbol to double quotation(true/false). Default is false(single quotation).
-
-`doubleQuotation`: 設定轉換後的屬性值符號是否使用雙引號(true/false). 預設為false(單引號).
-
-```JSON
-"styleObject2CSS":{
-    "settings":{
-        "doubleQuotation": false
-    }
-}
-```
 
 ## Known Issues
 
