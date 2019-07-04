@@ -100,28 +100,33 @@ update README.
 ### 1.0.4
 1. Add setting of doubleQuotation  to set quote symbol preference.
 
-新增是否使用雙引號的設定參數
+1. 新增是否使用雙引號的設定參數
 
 2. Update icon.
 
-更新icon
+2. 更新icon
 
 ### 1.0.5
 1. Add Chinese README.
 
-新增中文說明
+1. 新增中文說明
 
 2. Add key quotation handle.
 
-加入針對鍵名引號的處理
+2. 加入針對鍵名引號的處理
 
 3. Add repository.
 
-加入專案開源儲存位置
+3. 加入專案開源儲存位置
 
 ### 1.0.6
 1. Fix Chinese README.
 
-修正中文說明
+1. 修正中文說明
+
+### 1.0.7
+1. Fix useless quote.
+
+1. 移除不必要的引號
 
 **Enjoy!**
