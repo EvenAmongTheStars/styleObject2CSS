@@ -12,7 +12,7 @@
 		"type": "git",
 		"url": "https://github.com/mukumugi/styleObject2CSS"
 	},
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"engines": {
 		"vscode": "^1.35.0"
 	},
